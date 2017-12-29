@@ -1,6 +1,3 @@
-# ParabolaDetector
-Fast parabola detection using evolutive algorithms.
-
 Para compilar:
 -Usar 'make' sin comillas.
 
