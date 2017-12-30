@@ -18,7 +18,6 @@ void Graphics::init_cairo() {
 	surface = cairo_image_surface_create(CAIRO_FORMAT_ARGB32, width, height);
 	cr = cairo_create(surface);
 
-	//Crear fondo
 	cairo_pattern_t *pat = cairo_pattern_create_linear(width / 2, 0.0, width / 2, height);
 	cairo_pattern_add_color_stop_rgb(pat, 0.0, 0, 0, 0);
 	cairo_pattern_add_color_stop_rgb(pat, 1.0, 0, 0, 0);
